@@ -1,7 +1,70 @@
 /* ~*~*~*~*~*~*~*
+General
+~*~*~*~*~*~*~* */
+
+.bold {
+    font-weight: bold;
+}
+
+.section {
+    width: 100%;
+    background-size: cover;
+}
+
+/* ~*~*~*~*~*~*~*
 Navbar
 ~*~*~*~*~*~*~* */
 
 .navbar-brand {
     font-size: 1.6em;
+}
+
+/* ~*~*~*~*~*~*~*
+Home
+~*~*~*~*~*~*~* */
+
+#home {
+    background-image: url('../img/182813.jpg');
+}
+
+#home-container {
+    padding-top: 150px;
+}
+
+#home-content {
+    padding-top: 40px;
+    color: #222;
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* ~*~*~*~*~*~*~*
+About
+~*~*~*~*~*~*~* */
+
+#about {
+    color: white;
+    background-image: url('../img/259552.jpg');
+}
+
+#about-content {
+    padding-top: 150px;
+    text-align: center;
+}
+
+/* ~*~*~*~*~*~*~*
+Download
+~*~*~*~*~*~*~* */
+
+#download {
+    background-color: lightblue;
+}
+
+#download-content {
+    text-align: center;
+}
+
+#download-button{
+    width: 25%;
 }

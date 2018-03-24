@@ -11,7 +11,7 @@
         <title>Simple BS4 App Landing Page</title>
     </head>
     <body>
-        <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a href="#" class="navbar-brand">MyApp</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,6 +30,69 @@
                             <input type="password" class="form-control" placeholder="password">
                             <input type="submit" value="Submit" class="form-control btn-success">
                     </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="section" id="home" >
+            <div class="container" id="home-container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3" id="home-content">
+                        <h1>My Awesome App</h1>
+                        <p class="lead">This is why you should download this awesome app</p>
+                        <p>A little more detail about the app. You can go into more detail here if you want to.</p>
+                        <p class="bold">Interested? Join our mailing list!</p>
+
+                        <form>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">@</span>
+                                </div>
+                                <input type="email" class="form-control" placeholder="email address">
+                            </div>
+                            <input type="submit" value="Submit" class="form-control btn btn-success mt-3">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="about">
+            <div class="container" id="about-container">
+                <div class="row" id="about-content">
+                    <div class="col-md-12">
+                        <h1>Why This App is Aweseome</h1>
+                        <p class="lead">Summary of the app's awesomeness</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Header</h2>
+                        <p>A brief description of one of the best features of your app. Maybe a little more text. A brief description of one of the best features of your app. Maybe a little more text.</p>
+                        <input type="button" value="Sign Up!" class="form-control btn btn-success">
+                    </div>
+                    <div class="col-md-4">
+                            <h2>Header</h2>
+                            <p>A brief description of one of the best features of your app. Maybe a little more text. A brief description of one of the best features of your app. Maybe a little more text.</p>
+                            <input type="button" value="Sign Up!" class="form-control btn btn-success">
+                    </div>
+                    <div class="col-md-4">
+                            <h2>Header</h2>
+                            <p>A brief description of one of the best features of your app. Maybe a little more text. A brief description of one of the best features of your app. Maybe a little more text.</p>
+                            <input type="button" value="Sign Up!" class="form-control btn btn-success">
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="download">
+            <div class="container" id="download-container">
+                <div class="row" id="download-content">
+                    <div class="col-md-12">
+                        <h1>Download the app!</h1>
+                        <p class="lead bold">Really, why should I download the app?</p>
+                        <img src="img/app-store.png" alt="download button" class="img-responsive" id="download-button">
+                    </div>
                 </div>
             </div>
         </div>
